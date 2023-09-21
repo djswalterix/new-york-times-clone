@@ -1,0 +1,12 @@
+/* Se stai usando CSS */
+@font-face {
+  font-family: "IBMPlexSerif";
+  src: url("../../public/font/IBMPlexSerif-Regular.ttf") format("truetype"); /* Modifica il percorso in base alla tua struttura delle cartelle */
+  /* Aggiungi altri formati del font se necessario (woff, woff2, ecc.) */
+}
+
+@font-face {
+  font-family: "IBMPlexSerif-bold";
+  src: url("../../public/font/IBMPlexSerif-SemiBold.ttf") format("truetype"); /* Modifica il percorso in base alla tua struttura delle cartelle */
+  /* Aggiungi altri formati del font se necessario (woff, woff2, ecc.) */
+}
