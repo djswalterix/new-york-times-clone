@@ -1,13 +1,22 @@
 import React, { useState } from "react";
 import style from "../css/Header.module.scss"; // Importa il file SCSS
 import HamburgerMenu from "./Hamburgher";
+import Menu from "./Menu";
 import Logo from "./Logo";
-import userIcon from "../images/userIcon.svg";
+import get from "../data/NYTGet";
 function Header() {
+  const [isMenuOpen, setIsMenuOpen] = useState(true);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+    console.log(toggleMenu);
+  };
+
   return (
     <div className={style.component}>
-      <HamburgerMenu />
+      <HamburgerMenu onClick={toggleMenu} />
       <Logo />
+      <Menu isOpen={isMenuOpen} />
     </div>
   );
 }
