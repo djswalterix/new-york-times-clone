@@ -5,7 +5,7 @@ import Menu from "./Menu";
 import Logo from "./Logo";
 import get from "../data/NYTGet";
 function Header() {
-  const [isMenuOpen, setIsMenuOpen] = useState(true);
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
