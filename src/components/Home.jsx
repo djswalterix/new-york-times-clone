@@ -28,6 +28,11 @@ function Home() {
           key={index} // Assicurati di fornire una chiave unica per ogni articolo
           title={article.title}
           bodyArticle={article.bodyArticle}
+          url={article.url}
+          img={article.img}
+          imgDesktop={article.imgDesktop}
+          timeRead={article.timeRead}
+          by={article.by}
         />
       ))}
     </div>

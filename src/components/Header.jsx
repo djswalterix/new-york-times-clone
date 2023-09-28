@@ -4,6 +4,7 @@ import HamburgerMenu from "./Hamburgher";
 import Menu from "./Menu";
 import Logo from "./Logo";
 import get from "../data/NYTGet";
+import DateSection from "./Date";
 function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -14,9 +15,13 @@ function Header() {
 
   return (
     <div className={style.component}>
-      <HamburgerMenu onClick={toggleMenu} />
-      <Logo />
-      <Menu isOpen={isMenuOpen} />
+      <div className={style.line}>
+        <HamburgerMenu onClick={toggleMenu} />
+        <Logo />
+        <Menu isOpen={isMenuOpen} />
+      </div>
+
+      <DateSection />
     </div>
   );
 }
