@@ -24,9 +24,9 @@ function Menu({ isOpen }) {
     "magazine",
     "realestate",
   ];
-
+  const menuClassName = isOpen ? `${style.menu} ${style.open}` : style.menu;
   return (
-    <div className={style.menu}>
+    <div className={menuClassName}>
       <ul>
         {menuList.map((item, index) => (
           <li key={index}>{item}</li>

@@ -5,8 +5,8 @@ import Menu from "./Menu";
 import Logo from "./Logo";
 import get from "../data/NYTGet";
 import DateSection from "./Date";
-function Header() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+function MenuPage(props) {
+  const [isMenuOpen, setIsMenuOpen] = useState(true);
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
@@ -26,4 +26,4 @@ function Header() {
   );
 }
 
-export default Header;
+export default MenuPage;
