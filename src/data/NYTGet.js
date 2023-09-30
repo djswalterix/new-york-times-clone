@@ -2,10 +2,9 @@ import get from "./get.js";
 import debug from "./debug.json";
 const key = "CTUUG10nmQPjoe2U36TAOahrIql4joJ2";
 
-async function getGeneric() {
+async function getGeneric(query = "") {
   //const url = "https://api.nytimes.com/svc/archive/v1/2019/1.json?api-key=";
-  const url =
-    "https://api.nytimes.com/svc/search/v2/articlesearch.json?api-key=";
+  const url = `https://api.nytimes.com/svc/search/v2/articlesearch.json?q=${query}&api-key=`;
 
   try {
     const data = await get(url + key);
@@ -50,8 +49,8 @@ async function getGenericDebug() {
   }
 }
 
-async function exportArticles() {
-  const data = await getGenericDebug();
+async function exportArticles(query = "") {
+  const data = await getGeneric(query);
   const articles = data.response.docs;
   let articlesFormatted = [];
 
@@ -79,7 +78,7 @@ async function exportArticles() {
       }
     }
 
-    console.log(JSON.stringify(formattedArticle));
+    //console.log(JSON.stringify(formattedArticle));
     articlesFormatted.push(formattedArticle);
   }
   return articlesFormatted;

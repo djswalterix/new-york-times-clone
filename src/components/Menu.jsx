@@ -1,39 +1,46 @@
 // Menu.js
 import React from "react";
 import style from "../css/Menu.module.scss"; // Importa il file SCSS per lo stile del menu
-
-function Menu({ isOpen }) {
-  if (!isOpen) {
-    return null; // Il menu è chiuso, quindi non renderlo
-  }
+import { Link } from "react-router-dom";
+import { connect } from "react-redux";
+import SearchCategory from "./SearchCategory";
+function Menu({ setQuery }) {
+  const handleMenuItemClick = (query) => {
+    setQuery(query); // Imposta la prop query utilizzando Redux
+  };
   const menuList = [
-    "world",
-    "us",
-    "politics",
-    "ny",
-    "business",
-    "opinion",
-    "scienze",
+    "World",
+    "Us",
+    "Politics",
+    "Ny",
+    "Business",
+    "Opinion",
+    "Scienze",
     "Health",
-    "sports",
-    "arts",
-    "books",
-    "style",
-    "food",
-    "travel",
-    "magazine",
-    "realestate",
+    "Sports",
+    "Arts",
+    "Books",
+    "Style",
+    "Food",
+    "Travel",
+    "Magazine",
+    "Realestate",
   ];
-  const menuClassName = isOpen ? `${style.menu} ${style.open}` : style.menu;
+
   return (
-    <div className={menuClassName}>
+    <div className={style.menu}>
+      <SearchCategory />
       <ul>
         {menuList.map((item, index) => (
-          <li key={index}>{item}</li>
+          <Link to="/" onClick={() => handleMenuItemClick(item)}>
+            <li key={index}>{item}</li>
+          </Link>
         ))}
       </ul>
     </div>
   );
 }
-
-export default Menu;
+const mapDispatchToProps = (dispatch) => ({
+  setQuery: (query) => dispatch({ type: "SET_QUERY", payload: query }),
+});
+export default connect(null, mapDispatchToProps)(Menu);

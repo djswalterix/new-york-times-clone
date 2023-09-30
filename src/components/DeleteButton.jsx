@@ -1,11 +1,11 @@
-import React, { useState } from "react";
+import React from "react";
 import style from "../css/Hamburgher.module.scss"; // Importa il file SCSS
-import svgMenu from "../images/hamburgherMenu.svg";
+import svgMenu from "../images/X.svg";
 import { Link } from "react-router-dom"; // Importa il componente Link
-function HamburgerMenu() {
+function DeleteButton() {
   return (
-    <div className="hamburgherMenu">
-      <Link to={`/menu`}>
+    <div>
+      <Link to={`/`}>
         <img
           className={style.imgHamburgherMenu}
           src={svgMenu}
@@ -16,4 +16,4 @@ function HamburgerMenu() {
   );
 }
 
-export default HamburgerMenu;
+export default DeleteButton;

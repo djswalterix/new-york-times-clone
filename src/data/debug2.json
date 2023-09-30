@@ -1,0 +1,765 @@
+{
+  "status": "OK",
+  "copyright": "Copyright (c) 2023 The New York Times Company. All Rights Reserved.",
+  "response": {
+    "docs": [
+      {
+        "abstract": "Cambodia is moving toward some sort of trials for some of former Khmer Rouge even though Prime Min Hun Sen had hoped to 'dig a hole and bury the past'; contentious questions still remain over whether any such trials will meet international standards of fairness and legal rigor; critics fear outcomes will be crafted to suit Hun Sen's political needs rather than to examine the deaths of more than a million people by Khmer Rouge (M)",
+        "web_url": "https://www.nytimes.com/1999/12/05/world/the-shape-of-justice-is-undefined-in-cambodia.html",
+        "snippet": "Cambodia is moving toward some sort of trials for some of former Khmer Rouge even though Prime Min Hun Sen had hoped to 'dig a hole and bury the past'; contentious questions still remain over whether any such trials will meet international standar...",
+        "lead_paragraph": "One year after they surrendered last December, life has improved for two top leaders of the brutal Khmer Rouge. No longer on the run, they live openly among their old comrades in a remote border town, free of the threat of government attack.",
+        "print_section": "1",
+        "print_page": "4",
+        "source": "The New York Times",
+        "multimedia": [],
+        "headline": {
+          "main": "The Shape Of Justice Is Undefined In Cambodia",
+          "kicker": null,
+          "content_kicker": null,
+          "print_headline": "The Shape Of Justice Is Undefined In Cambodia",
+          "name": null,
+          "seo": null,
+          "sub": null
+        },
+        "keywords": [
+          {
+            "name": "glocations",
+            "value": "Cambodia",
+            "rank": 1,
+            "major": "N"
+          },
+          {
+            "name": "organizations",
+            "value": "Khmer Rouge",
+            "rank": 2,
+            "major": "N"
+          },
+          { "name": "persons", "value": "Hun Sen", "rank": 3, "major": "N" },
+          {
+            "name": "subject",
+            "value": "WAR CRIMES AND CRIMINALS",
+            "rank": 4,
+            "major": "N"
+          }
+        ],
+        "pub_date": "1999-12-05T05:00:00+0000",
+        "document_type": "article",
+        "news_desk": "Foreign Desk",
+        "section_name": "World",
+        "byline": {
+          "original": "By Seth Mydans",
+          "person": [
+            {
+              "firstname": "Seth",
+              "middlename": null,
+              "lastname": "Mydans",
+              "qualifier": null,
+              "title": null,
+              "role": "reported",
+              "organization": "",
+              "rank": 1
+            }
+          ],
+          "organization": null
+        },
+        "type_of_material": "News",
+        "_id": "nyt://article/60e9f050-6c8d-5962-9cf5-4980107fa3e5",
+        "word_count": 790,
+        "uri": "nyt://article/60e9f050-6c8d-5962-9cf5-4980107fa3e5"
+      },
+      {
+        "abstract": "The Sidewalk Café in the East Village plays host to the annual Antifolk Festival, a week of performances by more than 50 musicians that will end on Sunday.",
+        "web_url": "https://artsbeat.blogs.nytimes.com/2011/09/23/antifolk-festival-2011/",
+        "snippet": "The Sidewalk Café in the East Village plays host to the annual Antifolk Festival, a week of performances by more than 50 musicians that will end on Sunday.",
+        "lead_paragraph": "Some music scenes are too mischievous to die. ",
+        "source": "The New York Times",
+        "multimedia": [],
+        "headline": {
+          "main": "Staying Undefined at the Antifolk Festival, and That’s Fine",
+          "kicker": "ArtsBeat",
+          "content_kicker": null,
+          "print_headline": null,
+          "name": null,
+          "seo": null,
+          "sub": null
+        },
+        "keywords": [
+          { "name": "subject", "value": "Folk Music", "rank": 5, "major": "N" },
+          { "name": "subject", "value": "Music", "rank": 6, "major": "N" },
+          {
+            "name": "subject",
+            "value": "NIGHTCLUBS AND CABARETS",
+            "rank": 7,
+            "major": "N"
+          }
+        ],
+        "pub_date": "2011-09-23T07:40:41+0000",
+        "document_type": "article",
+        "news_desk": "",
+        "section_name": "Arts",
+        "byline": {
+          "original": "By James C. McKinley Jr",
+          "person": [
+            {
+              "firstname": "James",
+              "middlename": "C.",
+              "lastname": "McKinley",
+              "qualifier": "Jr",
+              "title": null,
+              "role": "reported",
+              "organization": "",
+              "rank": 1
+            }
+          ],
+          "organization": null
+        },
+        "type_of_material": "News",
+        "_id": "nyt://article/74c60645-e562-52a2-ba74-5f22d7733f63",
+        "word_count": 772,
+        "uri": "nyt://article/74c60645-e562-52a2-ba74-5f22d7733f63"
+      },
+      {
+        "abstract": "",
+        "web_url": "https://www.nytimes.com/1969/08/12/archives/butkuss-conduct-undefined.html",
+        "snippet": "",
+        "lead_paragraph": "",
+        "print_page": "43",
+        "source": "The New York Times",
+        "multimedia": [],
+        "headline": {
+          "main": "Butkus's Conduct Undefined",
+          "kicker": "1",
+          "content_kicker": null,
+          "print_headline": "Butkus's Conduct Undefined",
+          "name": null,
+          "seo": null,
+          "sub": null
+        },
+        "keywords": [],
+        "pub_date": "1969-08-12T05:00:00+0000",
+        "document_type": "article",
+        "news_desk": "None",
+        "section_name": "Archives",
+        "byline": { "original": null, "person": [], "organization": null },
+        "type_of_material": "Archives",
+        "_id": "nyt://article/dd37716c-a11c-5d9f-92c5-f5de00da788d",
+        "word_count": 0,
+        "uri": "nyt://article/dd37716c-a11c-5d9f-92c5-f5de00da788d"
+      },
+      {
+        "abstract": "  Both Herschel Walker and Giants Coach Dan Reeves tiptoed around the question of just what the versatile running back will do on the team. And Reeves was even more careful to say that Walker was not necessarily a replacement for the multipurpose back David Meggett, who signed with the Patriots as a free agent.   But quarterback Dave Brown cut right to the heart of why the Giants decided to give Walker $4.8 million over the next three years (with $1.8 million as a signing bonus).",
+        "web_url": "https://www.nytimes.com/1995/04/04/sports/baseball-walker-s-role-with-the-giants-is-undefined-for-now.html",
+        "snippet": "",
+        "lead_paragraph": "Both Herschel Walker and Giants Coach Dan Reeves tiptoed around the question of just what the versatile running back will do on the team. And Reeves was even more careful to say that Walker was not necessarily a replacement for the multipurpose back David Meggett, who signed with the Patriots as a free agent.",
+        "print_section": "B",
+        "print_page": "13",
+        "source": "The New York Times",
+        "multimedia": [],
+        "headline": {
+          "main": "Walker's Role With the Giants Is Undefined -- for Now",
+          "kicker": "BASEBALL",
+          "content_kicker": null,
+          "print_headline": "BASEBALL; Walker's Role With the Giants Is Undefined -- for Now",
+          "name": null,
+          "seo": null,
+          "sub": null
+        },
+        "keywords": [
+          {
+            "name": "organizations",
+            "value": "New York Giants",
+            "rank": 1,
+            "major": "N"
+          },
+          {
+            "name": "persons",
+            "value": "Walker, Herschel",
+            "rank": 2,
+            "major": "N"
+          },
+          {
+            "name": "subject",
+            "value": "Free Agents (Sports)",
+            "rank": 3,
+            "major": "N"
+          },
+          { "name": "subject", "value": "Football", "rank": 4, "major": "N" }
+        ],
+        "pub_date": "1995-04-04T05:00:00+0000",
+        "document_type": "article",
+        "news_desk": "Sports Desk",
+        "section_name": "Sports",
+        "byline": {
+          "original": "By Timothy W. Smith",
+          "person": [
+            {
+              "firstname": "Timothy",
+              "middlename": "W.",
+              "lastname": "Smith",
+              "qualifier": null,
+              "title": null,
+              "role": "reported",
+              "organization": "",
+              "rank": 1
+            }
+          ],
+          "organization": null
+        },
+        "type_of_material": "News",
+        "_id": "nyt://article/77a4b444-1398-5d28-90d1-9006467f571c",
+        "word_count": 724,
+        "uri": "nyt://article/77a4b444-1398-5d28-90d1-9006467f571c"
+      },
+      {
+        "abstract": "John Rockwell reviews Zenith 5] (Vrs 2.0), choreographed by John Moran, at Spiegeltent (M)",
+        "web_url": "https://www.nytimes.com/2006/08/30/arts/dance/bits-of-opera-and-dance-whimsically-undefined.html",
+        "snippet": "John Rockwell reviews Zenith 5] (Vrs 2.0), choreographed by John Moran, at Spiegeltent (M)",
+        "lead_paragraph": "John Moran has called his shows operas until recently, when he has begun to hint that maybe they're ballets. By any conventional definition, they're neither; they're John Moran shows. And if you have a taste for his fractured world, they're delightful.",
+        "print_section": "E",
+        "print_page": "5",
+        "source": "The New York Times",
+        "multimedia": [],
+        "headline": {
+          "main": "Bits of Opera and Dance, Whimsically Undefined",
+          "kicker": "PERFORMANCE ART REVIEW",
+          "content_kicker": null,
+          "print_headline": "PERFORMANCE ART REVIEW; Bits of Opera and Dance, Whimsically Undefined",
+          "name": null,
+          "seo": null,
+          "sub": null
+        },
+        "keywords": [
+          {
+            "name": "organizations",
+            "value": "Performance Space 122",
+            "rank": 1,
+            "major": "N"
+          },
+          {
+            "name": "persons",
+            "value": "Benny, Jack",
+            "rank": 2,
+            "major": "N"
+          },
+          {
+            "name": "persons",
+            "value": "Moran, John",
+            "rank": 3,
+            "major": "N"
+          },
+          { "name": "subject", "value": "Reviews", "rank": 4, "major": "N" },
+          {
+            "name": "subject",
+            "value": "SPIEGELTENT",
+            "rank": 5,
+            "major": "N"
+          },
+          { "name": "subject", "value": "Dancing", "rank": 6, "major": "N" }
+        ],
+        "pub_date": "2006-08-30T05:00:00+0000",
+        "document_type": "article",
+        "news_desk": "The Arts/Cultural Desk",
+        "section_name": "Arts",
+        "byline": {
+          "original": "By John Rockwell",
+          "person": [
+            {
+              "firstname": "John",
+              "middlename": null,
+              "lastname": "Rockwell",
+              "qualifier": null,
+              "title": null,
+              "role": "reported",
+              "organization": "",
+              "rank": 1
+            }
+          ],
+          "organization": null
+        },
+        "type_of_material": "Review",
+        "_id": "nyt://article/1e47f09e-f73a-518f-b1df-984d1163d5be",
+        "word_count": 576,
+        "uri": "nyt://article/1e47f09e-f73a-518f-b1df-984d1163d5be"
+      },
+      {
+        "abstract": "  When Thomas F. McLarty 3d learned that his old friend Bill Clinton intended to name him White House chief of staff, he began his homework right away.   Mr. McLarty, the 46-year-old chairman of a natural gas company, bought a copy of \"Chief of Staff,\" a recounting of a 1986 symposium involving eight men who had held his job. For good measure, he also picked up a cassette tape of the proceedings. And he plans to call on his predecessors soon for more personal lessons.",
+        "web_url": "https://www.nytimes.com/1992/12/14/us/the-transition-clinton-s-chief-of-staff-ponders-undefined-post.html",
+        "snippet": "",
+        "lead_paragraph": "When Thomas F. McLarty 3d learned that his old friend Bill Clinton intended to name him White House chief of staff, he began his homework right away.",
+        "print_section": "B",
+        "print_page": "6",
+        "source": "The New York Times",
+        "multimedia": [],
+        "headline": {
+          "main": "Clinton's Chief of Staff Ponders Undefined Post",
+          "kicker": "THE TRANSITION",
+          "content_kicker": null,
+          "print_headline": "THE TRANSITION; Clinton's Chief of Staff Ponders Undefined Post",
+          "name": null,
+          "seo": null,
+          "sub": null
+        },
+        "keywords": [
+          {
+            "name": "persons",
+            "value": "MCLARTY, THOMAS F 3D",
+            "rank": 1,
+            "major": "N"
+          },
+          {
+            "name": "persons",
+            "value": "Clinton, Bill",
+            "rank": 2,
+            "major": "N"
+          },
+          {
+            "name": "subject",
+            "value": "United States Politics and Government",
+            "rank": 3,
+            "major": "N"
+          },
+          {
+            "name": "subject",
+            "value": "TRANSITION BETWEEN ADMINISTRATIONS",
+            "rank": 4,
+            "major": "N"
+          }
+        ],
+        "pub_date": "1992-12-14T05:00:00+0000",
+        "document_type": "article",
+        "news_desk": "National Desk",
+        "section_name": "U.S.",
+        "byline": {
+          "original": "By Michael Kelly",
+          "person": [
+            {
+              "firstname": "Michael",
+              "middlename": null,
+              "lastname": "Kelly",
+              "qualifier": null,
+              "title": null,
+              "role": "reported",
+              "organization": "",
+              "rank": 1
+            }
+          ],
+          "organization": null
+        },
+        "type_of_material": "Biography",
+        "_id": "nyt://article/2f647479-7a4e-5748-88fa-72846e5c3406",
+        "word_count": 1044,
+        "uri": "nyt://article/2f647479-7a4e-5748-88fa-72846e5c3406"
+      },
+      {
+        "abstract": "Meg Whitman told 10,000 customers that Hewlett-Packard would be “more than the sum of its parts” in hardware, software and services. The company will deliver secure information and offer insight in a world of cloud computing and a mobile Internet. The one thing she missed: How this will happen.",
+        "web_url": "https://bits.blogs.nytimes.com/2012/06/05/meg-whitmans-defining-moment/",
+        "snippet": "Meg Whitman told 10,000 customers that Hewlett-Packard would be “more than the sum of its parts” in hardware, software and services. The company will deliver secure information and offer insight in a world of cloud computing and a mobile Internet....",
+        "lead_paragraph": "LAS VEGAS — Meg Whitman spoke Tuesday morning to 10,000 customers and partners at an event in the gambling capital. It was her biggest public performance as the chief executive of Hewlett-Packard. In a sense it was her defining moment: after the turmoil of the last couple of years, she tried to define what H.P. is and does, and why the company still matters.",
+        "source": "The New York Times",
+        "multimedia": [
+          {
+            "rank": 0,
+            "subtype": "wide",
+            "caption": null,
+            "credit": null,
+            "type": "image",
+            "url": "images/2012/04/23/technology/bits/bitpix-hp-whitman/bitpix-hp-whitman-thumbWide.jpg",
+            "height": 126,
+            "width": 190,
+            "legacy": {
+              "widewidth": 190,
+              "wideheight": 126,
+              "wide": "images/2012/04/23/technology/bits/bitpix-hp-whitman/bitpix-hp-whitman-thumbWide.jpg"
+            },
+            "subType": "wide",
+            "crop_name": "thumbWide"
+          },
+          {
+            "rank": 0,
+            "subtype": "jumbo",
+            "caption": null,
+            "credit": null,
+            "type": "image",
+            "url": "images/2012/04/23/technology/bits/bitpix-hp-whitman/bitpix-hp-whitman-jumbo.jpg",
+            "height": 1024,
+            "width": 683,
+            "legacy": {},
+            "subType": "jumbo",
+            "crop_name": "jumbo"
+          },
+          {
+            "rank": 0,
+            "subtype": "popup",
+            "caption": null,
+            "credit": null,
+            "type": "image",
+            "url": "images/2012/04/23/technology/bits/bitpix-hp-whitman/bitpix-hp-whitman-popup.jpg",
+            "height": 500,
+            "width": 333,
+            "legacy": {},
+            "subType": "popup",
+            "crop_name": "popup"
+          },
+          {
+            "rank": 0,
+            "subtype": "superJumbo",
+            "caption": null,
+            "credit": null,
+            "type": "image",
+            "url": "images/2012/04/23/technology/bits/bitpix-hp-whitman/bitpix-hp-whitman-superJumbo.jpg",
+            "height": 2048,
+            "width": 1365,
+            "legacy": {},
+            "subType": "superJumbo",
+            "crop_name": "superJumbo"
+          },
+          {
+            "rank": 0,
+            "subtype": "articleInline",
+            "caption": null,
+            "credit": null,
+            "type": "image",
+            "url": "images/2012/04/23/technology/bits/bitpix-hp-whitman/bitpix-hp-whitman-articleInline.jpg",
+            "height": 219,
+            "width": 190,
+            "legacy": {},
+            "subType": "articleInline",
+            "crop_name": "articleInline"
+          },
+          {
+            "rank": 0,
+            "subtype": "thumbnail",
+            "caption": null,
+            "credit": null,
+            "type": "image",
+            "url": "images/2012/04/23/technology/bits/bitpix-hp-whitman/bitpix-hp-whitman-thumbStandard.jpg",
+            "height": 75,
+            "width": 75,
+            "legacy": {
+              "thumbnail": "images/2012/04/23/technology/bits/bitpix-hp-whitman/bitpix-hp-whitman-thumbStandard.jpg",
+              "thumbnailwidth": 75,
+              "thumbnailheight": 75
+            },
+            "subType": "thumbnail",
+            "crop_name": "thumbStandard"
+          },
+          {
+            "rank": 0,
+            "subtype": "thumbLarge",
+            "caption": null,
+            "credit": null,
+            "type": "image",
+            "url": "images/2012/04/23/technology/bits/bitpix-hp-whitman/bitpix-hp-whitman-thumbLarge.jpg",
+            "height": 150,
+            "width": 150,
+            "legacy": {},
+            "subType": "thumbLarge",
+            "crop_name": "thumbLarge"
+          }
+        ],
+        "headline": {
+          "main": "Meg Whitman’s Defining Moment, Still Undefined",
+          "kicker": "Bits",
+          "content_kicker": null,
+          "print_headline": null,
+          "name": null,
+          "seo": null,
+          "sub": null
+        },
+        "keywords": [
+          {
+            "name": "subject",
+            "value": "Cloud Computing",
+            "rank": 1,
+            "major": "N"
+          },
+          {
+            "name": "subject",
+            "value": "Computers and the Internet",
+            "rank": 2,
+            "major": "N"
+          },
+          {
+            "name": "persons",
+            "value": "Whitman, Margaret C",
+            "rank": 3,
+            "major": "N"
+          },
+          {
+            "name": "organizations",
+            "value": "Hewlett-Packard Company",
+            "rank": 4,
+            "major": "N"
+          }
+        ],
+        "pub_date": "2012-06-05T18:42:54+0000",
+        "document_type": "article",
+        "news_desk": "",
+        "section_name": "Technology",
+        "byline": {
+          "original": "By Quentin Hardy",
+          "person": [
+            {
+              "firstname": "Quentin",
+              "middlename": null,
+              "lastname": "Hardy",
+              "qualifier": null,
+              "title": null,
+              "role": "reported",
+              "organization": "",
+              "rank": 1
+            }
+          ],
+          "organization": null
+        },
+        "type_of_material": "News",
+        "_id": "nyt://article/da4c317c-adb3-57ae-92fa-4001e9292cdc",
+        "word_count": 454,
+        "uri": "nyt://article/da4c317c-adb3-57ae-92fa-4001e9292cdc"
+      },
+      {
+        "abstract": "John Moran’s latest, “Zenith 5! (Vrs. 2.0),” offers a bracing visit to a disjointed and lip-synched world.",
+        "web_url": "https://www.nytimes.com/2006/08/30/arts/dance/30mora.html",
+        "snippet": "John Moran’s latest, “Zenith 5! (Vrs. 2.0),” offers a bracing visit to a disjointed and lip-synched world.",
+        "lead_paragraph": "John Moran has called his shows operas until recently, when he has begun to hint that maybe they’re ballets. By any conventional definition, they’re neither; they’re John Moran shows. And if you have a taste for his fractured world, they’re delightful.",
+        "print_section": "E",
+        "print_page": "5",
+        "source": "The New York Times",
+        "multimedia": [],
+        "headline": {
+          "main": "Bits of Opera and Dance, Whimsically Undefined",
+          "kicker": "Performance Art Review",
+          "content_kicker": null,
+          "print_headline": "Bits of Opera and Dance, Whimsically Undefined",
+          "name": null,
+          "seo": null,
+          "sub": null
+        },
+        "keywords": [
+          {
+            "name": "organizations",
+            "value": "Performance Space 122",
+            "rank": 1,
+            "major": "N"
+          },
+          {
+            "name": "persons",
+            "value": "Benny, Jack",
+            "rank": 2,
+            "major": "N"
+          },
+          { "name": "persons", "value": "Moran, John", "rank": 3, "major": "N" }
+        ],
+        "pub_date": "2006-08-30T04:00:00+0000",
+        "document_type": "article",
+        "news_desk": "Culture",
+        "section_name": "Arts",
+        "subsection_name": "Dance",
+        "byline": {
+          "original": "By John Rockwell",
+          "person": [
+            {
+              "firstname": "John",
+              "middlename": null,
+              "lastname": "Rockwell",
+              "qualifier": null,
+              "title": null,
+              "role": "reported",
+              "organization": "",
+              "rank": 1
+            }
+          ],
+          "organization": null
+        },
+        "type_of_material": "Review",
+        "_id": "nyt://article/81c96b50-f64f-5243-b914-ce22109c21f7",
+        "word_count": 580,
+        "uri": "nyt://article/81c96b50-f64f-5243-b914-ce22109c21f7"
+      },
+      {
+        "abstract": "some Cong leaders are talking about applying income tax refund to low and middle‐income families, but there is no consensus on what 'middle‐income' is; level usually used by HR Ways and Means Com puts middle‐income at about $15,000 a yr (S)",
+        "web_url": "https://www.nytimes.com/1975/01/15/archives/middle-income-undefined.html",
+        "snippet": "some Cong leaders are talking about applying income tax refund to low and middle‐income families, but there is no consensus on what 'middle‐income' is; level usually used by HR Ways and Means Com puts middle‐income at about $15,000 a yr (S)",
+        "lead_paragraph": "WASHINGTON, Jan. 14 (UPI) Some congressional leaders talk about applying the income tax refund to low and middleincome families, but there is no consensus on what “middle income” is. A level usually used by the House Ways and Means. Committee puts middle income at about $15,000 a year.",
+        "print_page": "19",
+        "source": "The New York Times",
+        "multimedia": [],
+        "headline": {
+          "main": "‘Middle Income’ Undefined",
+          "kicker": null,
+          "content_kicker": null,
+          "print_headline": "‘Middle Income’ Undefined",
+          "name": null,
+          "seo": null,
+          "sub": null
+        },
+        "keywords": [
+          { "name": "subject", "value": "Income", "rank": 1, "major": "N" },
+          { "name": "subject", "value": "Taxation", "rank": 2, "major": "N" },
+          {
+            "name": "subject",
+            "value": "Federal Taxes (US)",
+            "rank": 3,
+            "major": "N"
+          },
+          { "name": "subject", "value": "Income Tax", "rank": 4, "major": "N" }
+        ],
+        "pub_date": "1975-01-15T05:00:00+0000",
+        "document_type": "article",
+        "news_desk": "None",
+        "section_name": "Archives",
+        "byline": { "original": null, "person": [], "organization": null },
+        "type_of_material": "Archives",
+        "_id": "nyt://article/63c2d403-3582-5fcc-a81b-49cd164da4b4",
+        "word_count": 53,
+        "uri": "nyt://article/63c2d403-3582-5fcc-a81b-49cd164da4b4"
+      },
+      {
+        "abstract": "In “Tiny Furniture,” a recent college graduate reluctantly returns to her family’s loft in TriBeCa, where she does her desperate best to construct a meaningful life.",
+        "web_url": "https://www.nytimes.com/2010/11/12/movies/12tiny.html",
+        "snippet": "In “Tiny Furniture,” a recent college graduate reluctantly returns to her family’s loft in TriBeCa, where she does her desperate best to construct a meaningful life.",
+        "lead_paragraph": "Pitched unsteadily if shrewdly between honest self-reflection and squirmy narcissistic indulgence, the low-budget indie “Tiny Furniture” is one of the bigger itsy-bitsy movies to hit this year. It was written and directed by the newcomer Lena Dunham, who also plays the leading role of Aura, a recent college graduate who returns to her family’s TriBeCa loft and promptly tries to crawl back in the womb. What makes this womb without apparent view especially notable is that Ms. Dunham’s own mother, the artist Laurie Simmons, plays Aura’s mother, while her real sister, Grace, plays Aura’s on-screen sibling.",
+        "print_section": "C",
+        "print_page": "6",
+        "source": "The New York Times",
+        "multimedia": [
+          {
+            "rank": 0,
+            "subtype": "xlarge",
+            "caption": null,
+            "credit": null,
+            "type": "image",
+            "url": "images/2010/11/12/arts/12TINY-span/TINY-articleLarge.jpg",
+            "height": 315,
+            "width": 600,
+            "legacy": {
+              "xlarge": "images/2010/11/12/arts/12TINY-span/TINY-articleLarge.jpg",
+              "xlargewidth": 600,
+              "xlargeheight": 315
+            },
+            "subType": "xlarge",
+            "crop_name": "articleLarge"
+          },
+          {
+            "rank": 0,
+            "subtype": "jumbo",
+            "caption": null,
+            "credit": null,
+            "type": "image",
+            "url": "images/2010/11/12/arts/12TINY-span/TINY-jumbo.jpg",
+            "height": 1007,
+            "width": 817,
+            "legacy": {},
+            "subType": "jumbo",
+            "crop_name": "jumbo"
+          },
+          {
+            "rank": 0,
+            "subtype": "popup",
+            "caption": null,
+            "credit": null,
+            "type": "image",
+            "url": "images/2010/11/12/arts/12TINY-span/TINY-articleLarge.jpg",
+            "height": 315,
+            "width": 600,
+            "legacy": {},
+            "subType": "popup",
+            "crop_name": "popup"
+          },
+          {
+            "rank": 0,
+            "subtype": "articleInline",
+            "caption": null,
+            "credit": null,
+            "type": "image",
+            "url": "images/2010/11/12/arts/12TINY-span/TINY-articleInline.jpg",
+            "height": 234,
+            "width": 190,
+            "legacy": {},
+            "subType": "articleInline",
+            "crop_name": "articleInline"
+          },
+          {
+            "rank": 0,
+            "subtype": "sfSpan",
+            "caption": null,
+            "credit": null,
+            "type": "image",
+            "url": "images/2010/11/12/arts/12TINY-span/TINY-sfSpan.jpg",
+            "height": 250,
+            "width": 395,
+            "legacy": {},
+            "subType": "sfSpan",
+            "crop_name": "sfSpan"
+          },
+          {
+            "rank": 0,
+            "subtype": "thumbnail",
+            "caption": null,
+            "credit": null,
+            "type": "image",
+            "url": "images/2010/11/12/arts/12TINY-span/TINY-thumbStandard.jpg",
+            "height": 75,
+            "width": 75,
+            "legacy": {
+              "thumbnail": "images/2010/11/12/arts/12TINY-span/TINY-thumbStandard.jpg",
+              "thumbnailwidth": 75,
+              "thumbnailheight": 75
+            },
+            "subType": "thumbnail",
+            "crop_name": "thumbStandard"
+          }
+        ],
+        "headline": {
+          "main": "Girl Undefined: Post-College but Pre-Real World",
+          "kicker": "Movie Review | 'Tiny Furniture'",
+          "content_kicker": null,
+          "print_headline": "Girl Undefined: Post-College but Pre-Real World",
+          "name": null,
+          "seo": null,
+          "sub": null
+        },
+        "keywords": [
+          { "name": "subject", "value": "Movies", "rank": 1, "major": "N" },
+          {
+            "name": "persons",
+            "value": "Dunham, Lena",
+            "rank": 2,
+            "major": "N"
+          },
+          {
+            "name": "persons",
+            "value": "Karpovsky, Alex",
+            "rank": 4,
+            "major": "N"
+          }
+        ],
+        "pub_date": "2010-11-11T22:45:21+0000",
+        "document_type": "article",
+        "news_desk": "Weekend",
+        "section_name": "Movies",
+        "byline": {
+          "original": "By Manohla Dargis",
+          "person": [
+            {
+              "firstname": "Manohla",
+              "middlename": null,
+              "lastname": "Dargis",
+              "qualifier": null,
+              "title": null,
+              "role": "reported",
+              "organization": "",
+              "rank": 1
+            }
+          ],
+          "organization": null
+        },
+        "type_of_material": "Review",
+        "_id": "nyt://article/c1116bc9-5b3e-536a-971e-8b3c97d0681b",
+        "word_count": 1045,
+        "uri": "nyt://article/c1116bc9-5b3e-536a-971e-8b3c97d0681b"
+      }
+    ],
+    "meta": { "hits": 5457, "offset": 0, "time": 30 }
+  }
+}

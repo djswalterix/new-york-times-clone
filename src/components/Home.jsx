@@ -3,13 +3,16 @@ import styles from "../css/Header.module.scss"; // Importa il file SCSS
 import Header from "./Header";
 import exportArticles from "../data/NYTGet";
 import Article from "./Article";
-function Home() {
+import MenuPage from "./MenuPage";
+import { connect } from "react-redux";
+function Home({ query }) {
+  console.log(query);
   const [articles, setArticles] = useState([]);
 
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const articlesData = await exportArticles();
+        const articlesData = await exportArticles(query);
         setArticles(articlesData);
       } catch (error) {
         // Gestisci eventuali errori qui
@@ -18,8 +21,8 @@ function Home() {
     };
 
     fetchData();
-  }, []);
-
+  }, [query]);
+  //alert(query);
   return (
     <div className={styles.container}>
       <Header />
@@ -38,5 +41,8 @@ function Home() {
     </div>
   );
 }
+const mapStateToProps = (state) => ({
+  query: state.query,
+});
 
-export default Home;
+export default connect(mapStateToProps)(Home);

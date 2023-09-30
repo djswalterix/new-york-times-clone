@@ -6,22 +6,14 @@ import Logo from "./Logo";
 import get from "../data/NYTGet";
 import DateSection from "./Date";
 function Header() {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
-
-  const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
-    console.log(toggleMenu);
-  };
-
   return (
     <div className={style.component}>
       <div className={style.line}>
-        <HamburgerMenu onClick={toggleMenu} />
+        <HamburgerMenu />
         <Logo />
       </div>
 
       <DateSection />
-      <Menu isOpen={isMenuOpen} />
     </div>
   );
 }
