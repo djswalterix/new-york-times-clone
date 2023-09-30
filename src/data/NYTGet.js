@@ -1,5 +1,5 @@
 import get from "./get.js";
-import debug from "./debug.json";
+/*import debug from "./debug.json"; risposta di unn api*/
 const key = "CTUUG10nmQPjoe2U36TAOahrIql4joJ2";
 
 async function getGeneric(query = "") {
@@ -43,7 +43,7 @@ async function getGeneric(query = "") {
     }
   }
 }
-
+/*metodo per testare senza lanciare ogni volta le api ma usando un json scaricato 
 async function getGenericDebug() {
   try {
     const data = debug; //debug e il json
@@ -70,7 +70,7 @@ async function getGenericDebug() {
     }
   }
 }
-
+*/
 async function exportArticles(query = "") {
   // alert(query);
   const data = await getGeneric(query);

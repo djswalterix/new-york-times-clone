@@ -1,4 +1,3 @@
-import { addToCache, getFromCache } from "../actions/actions";
 const initialState = {
   query: "",
   apiCache: {},
