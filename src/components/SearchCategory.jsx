@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import style from "../css/Menu.module.scss"; // Importa il file SCSS per lo stile del menu
+import style from "../css/Search.module.scss"; // Importa il file SCSS per lo stile del menu
 import { Link, useNavigate } from "react-router-dom";
 
 import { connect } from "react-redux";
@@ -21,15 +21,18 @@ function SearchCategory({ setQuery }) {
   };
 
   return (
-    <div className={style.menu}>
-      <form onSubmit={handleFormSubmit}>
+    <div>
+      <form onSubmit={handleFormSubmit} className={style.searchForm}>
         <input
           type="text"
           value={inputValue}
           onChange={handleInputChange}
-          placeholder="Inserisci del testo..."
+          placeholder="SEARCH"
+          className={style.search}
         />
-        <button type="submit">GO</button>
+        <button type="submit" className={style.submit}>
+          GO
+        </button>
       </form>
     </div>
   );

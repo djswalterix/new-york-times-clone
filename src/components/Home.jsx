@@ -4,11 +4,12 @@ import Header from "./Header";
 import exportArticles from "../data/NYTGet";
 import Article from "./Article";
 import MenuPage from "./MenuPage";
-import { connect } from "react-redux";
-function Home({ query }) {
-  console.log(query);
+import { connect, useDispatch } from "react-redux";
+import { addToCache } from "../redux/actions/actions";
+function Home({ query, apiCache }) {
   const [articles, setArticles] = useState([]);
-
+  const dispatch = useDispatch();
+  /*
   useEffect(() => {
     const fetchData = async () => {
       try {
@@ -21,7 +22,30 @@ function Home({ query }) {
     };
 
     fetchData();
-  }, [query]);
+  }, [query]);*/
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        if (apiCache && apiCache[query]) {
+          setArticles(apiCache[query]);
+        } else {
+          // Effettua una nuova chiamata API se i dati non sono in cache
+          const articlesData = await exportArticles(query);
+          setArticles(articlesData);
+
+          // Aggiungi i dati alla cache utilizzando l'azione Redux
+          dispatch(addToCache(query, articlesData));
+          console.log("apiCache:", apiCache);
+        }
+      } catch (error) {
+        // Gestisci eventuali errori qui
+        alert(error);
+      }
+    };
+
+    fetchData();
+  }, [query, apiCache, dispatch]);
   //alert(query);
   return (
     <div className={styles.container}>
@@ -43,6 +67,7 @@ function Home({ query }) {
 }
 const mapStateToProps = (state) => ({
   query: state.query,
+  apiCache: state.apiCache,
 });
 
 export default connect(mapStateToProps)(Home);

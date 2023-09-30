@@ -50,6 +50,7 @@ async function getGenericDebug() {
 }
 
 async function exportArticles(query = "") {
+  alert(query);
   const data = await getGeneric(query);
   const articles = data.response.docs;
   let articlesFormatted = [];
