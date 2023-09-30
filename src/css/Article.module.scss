@@ -1,5 +1,7 @@
 .article {
   margin: 1vh;
+  display: flex;
+  flex-direction: column;
 }
 .articleLink {
   text-decoration: none;
@@ -70,4 +72,35 @@
 }
 .articleFigure {
   margin: auto;
+}
+/*tablet*/
+@media screen and (min-width: 620px) {
+  .article {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  .articleFigure {
+    text-align: end;
+  }
+  .colonna {
+    min-width: 70%;
+  }
+  .articleImg {
+    img {
+      max-height: 55vh;
+    }
+  }
+}
+@media screen and (min-width: 2560px) {
+  .headingArticle {
+    font-size: 4rem;
+  }
+  .bodyArticle {
+    font-size: 2rem;
+  }
+  .captionImgArticle,
+  .minRead {
+    font-size: 1.3rem;
+  }
 }

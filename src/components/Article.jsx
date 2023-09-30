@@ -10,9 +10,11 @@ function Article(props) {
       className={style.articleLink}
     >
       <article className={style.article} onClick={props.onClick}>
-        <h1 className={style.headingArticle}>{props.title}</h1>
-        <p className={style.bodyArticle}>{props.bodyArticle}</p>
-        <p className={style.minRead}>{props.timeRead} MIN READ</p>
+        <div className={style.colonna}>
+          <h1 className={style.headingArticle}>{props.title}</h1>
+          <p className={style.bodyArticle}>{props.bodyArticle}</p>
+          <p className={style.minRead}>{props.timeRead} MIN READ</p>
+        </div>
         {props.img && (
           <figure className={style.articleFigure}>
             <picture className={style.articleImg} alt="article img">

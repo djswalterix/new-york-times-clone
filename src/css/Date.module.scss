@@ -9,3 +9,8 @@
   display: flex;
   font-family: helvetica, arial, sans-serif;
 }
+@media screen and (min-width: 620px) {
+  .date {
+    font-size: 22px;
+  }
+}
