@@ -13,10 +13,32 @@ async function getGeneric(query = "") {
     console.log(JSON.stringify(data));
     return data;
   } catch (error) {
-    //contorllo errori
-    if (error.response && error.response.status === 404) {
-      throw error;
+    console.error("Errore generico:", error);
+
+    if (error.response) {
+      if (error.response.status === 404) {
+        // Errore 404: Risorsa non trovata
+        console.error("Errore 404: Risorsa non trovata");
+        window.alert("Errore 404: Risorsa non trovata");
+        throw new Error("Risorsa non trovata");
+      } else if (error.response.status === 401) {
+        // Errore 401: Non autorizzato
+        console.error("Errore 401: Non autorizzato");
+        window.alert("Errore 401: Non autorizzato");
+        throw new Error("Non autorizzato");
+      } else {
+        // Altro errore HTTP
+        console.error("Errore HTTP:", error.response.status);
+        window.alert(`Errore HTTP: ${error.response.status}`);
+        throw error;
+      }
     } else {
+      // Errore generico non legato a una risposta HTTP
+      console.error(
+        "Errore generico non legato a una risposta HTTP:",
+        error.message
+      );
+      window.alert(`Errore generico: ${error.message}`);
       throw error;
     }
   }
@@ -50,7 +72,7 @@ async function getGenericDebug() {
 }
 
 async function exportArticles(query = "") {
-  alert(query);
+  // alert(query);
   const data = await getGeneric(query);
   const articles = data.response.docs;
   let articlesFormatted = [];

@@ -40,7 +40,7 @@ function Home({ query, apiCache }) {
         }
       } catch (error) {
         // Gestisci eventuali errori qui
-        alert(error);
+        console.log(error);
       }
     };
 
