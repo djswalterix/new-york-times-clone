@@ -3,7 +3,7 @@ import style from "../css/Header.module.scss"; // Importa il file SCSS
 import DeleteButton from "./DeleteButton";
 import Menu from "./Menu";
 import Logo from "./Logo";
-import get from "../data/NYTGet";
+
 import DateSection from "./Date";
 
 function MenuPage() {

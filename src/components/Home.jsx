@@ -3,7 +3,7 @@ import styles from "../css/Header.module.scss"; // Importa il file SCSS
 import Header from "./Header";
 import exportArticles from "../data/NYTGet";
 import Article from "./Article";
-import MenuPage from "./MenuPage";
+
 import { connect, useDispatch } from "react-redux";
 import { addToCache } from "../redux/actions/actions";
 function Home({ query, apiCache }) {

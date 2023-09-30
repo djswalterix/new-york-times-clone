@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import style from "../css/Search.module.scss"; // Importa il file SCSS per lo stile del menu
-import { Link, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 import { connect } from "react-redux";
 function SearchCategory({ setQuery }) {
