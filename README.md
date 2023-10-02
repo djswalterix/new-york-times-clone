@@ -168,7 +168,7 @@ Your contributions help make this project better for everyone. Thank you for you
 
 ## License
 
-Distributed under the MIT License. See `[](dist/bundle.js.LICENSE.txt)` for more information.
+Distributed under the MIT License.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
