@@ -110,6 +110,7 @@ async function exportArticles(query = "") {
 10 parole 2,5 secondi
 */
 function fromWordsToTime(numerOfWords) {
-  return Math.round(((numerOfWords / 10) * 2.5) / 60);
+  const min = Math.round(((numerOfWords / 10) * 2.5) / 60);
+  return min === 0 ? 1 : min;
 }
 export default exportArticles;

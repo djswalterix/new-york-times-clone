@@ -88,11 +88,20 @@
   }
   .articleImg {
     img {
-      max-height: 55vh;
+      max-width: 27vw;
     }
   }
 }
+@media screen and (min-width: 1024px) {
+  .bodyArticle {
+    line-height: 1.8rem;
+  }
+}
 @media screen and (min-width: 2560px) {
+  .article {
+    padding: 0 50vh;
+    /* width: 50%; */
+  }
   .headingArticle {
     font-size: 4rem;
   }
