@@ -1,3 +1,67 @@
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+  <h3 align="center">New York Times Clone</h3>
+
+  <p align="center">
+    A web application that replicates the New York Times website using React, Redux, and Axios.
+    <br />
+    <a href="https://github.com/djswalterix/new-york-times-clone"><strong>Explore the docs »</strong></a>
+    <br />
+    <br />
+    <a href="https://splendid-manatee-1efc14.netlify.app/">View Demo</a>
+    ·
+    <a href="https://github.com/djswalterix/new-york-times-clone/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/djswalterix/new-york-times-clone/issues">Request Feature</a>
+  </p>
+</div>
+
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Table of Contents</summary>
+  <ol>
+    <li>
+      <a href="#about-the-project">About The Project</a>
+      <ul>
+        <li><a href="#built-with">Built With</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+      </ul>
+    </li>
+    <li><a href="#usage">Usage</a></li>
+    <li><a href="#contributing">Contributing</a></li>
+    <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ol>
+</details>
+
+<!-- ABOUT THE PROJECT -->
+
+## About The Project
+
+![Screenshot](/public/images/Screenshot.png)
+
+The "New York Times Clone" is a web application that replicates the New York Times website using React, Redux, and Axios. It allows users to browse articles, view the latest news, and explore various sections, just like the original New York Times website.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+### Built With
+
+- React
+- Redux
+- Javascript
+- Axios
+- HTML
+- CSS
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -68,3 +132,54 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Usage
+
+To use the "New York Times Clone" follow these simple steps:
+
+1. Open the web application in your preferred browser.
+
+2. Explore the various sections and articles available on the homepage.
+
+3. Click the "Search" button.
+
+4. Click on an article to read the full story.
+
+5. Enjoy the "New York Times" experience in this clone!
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<!-- CONTRIBUTING -->
+
+## Contributing
+
+Contributions are welcome! If you'd like to contribute to "Life Quality", please follow these steps:
+
+1. Fork the Project.
+2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`).
+3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`).
+4. Push to the Branch (`git push origin feature/AmazingFeature`).
+5. Open a Pull Request.
+
+Your contributions help make this project better for everyone. Thank you for your support!
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- LICENSE -->
+
+## License
+
+Distributed under the MIT License. See `[](dist/bundle.js.LICENSE.txt)` for more information.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- CONTACT -->
+
+## Contact
+
+- Instagram: [@walkerhoxha](https://www.instagram.com/walkerhoxha/)
+- LinkedIn: [Walter Hoxha](https://www.linkedin.com/in/walter-hoxha-62112126b/)
+- GitHub: [djswalterix](https://github.com/djswalterix)
+
+Project Link: [https://github.com/djswalterix/javascriptAdvanced](https://github.com/djswalterix/javascriptAdvanced)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
