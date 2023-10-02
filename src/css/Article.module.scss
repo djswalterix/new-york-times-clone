@@ -2,6 +2,8 @@
   margin: 1vh;
   display: flex;
   flex-direction: column;
+
+  overflow-x: hidden;
 }
 .articleLink {
   text-decoration: none;
@@ -70,8 +72,10 @@
   vertical-align: text-top;
   line-height: 1.2em;
 }
-.articleFigure {
-  margin: auto;
+
+.colonnaImg {
+  display: flex;
+  justify-content: center;
 }
 /*tablet*/
 @media screen and (min-width: 620px) {

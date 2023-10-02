@@ -16,21 +16,23 @@ function Article(props) {
           <p className={style.minRead}>{props.timeRead} MIN READ</p>
         </div>
         {props.img && (
-          <figure className={style.articleFigure}>
-            <picture className={style.articleImg} alt="article img">
-              <source
-                srcset={props.imgDesktop}
-                media="(min-width: 800px)"
-              ></source>
-              <img src={props.img} alt="immagine articolo" />
-            </picture>
-            <figcaption className={style.captionImgArticle}>
-              {props.by}
-            </figcaption>
-          </figure>
+          <div className={style.colonnaImg}>
+            <figure className={style.articleFigure}>
+              <picture className={style.articleImg} alt="article img">
+                <source
+                  srcset={props.imgDesktop}
+                  media="(min-width: 800px)"
+                ></source>
+                <img src={props.img} alt="immagine articolo" />
+              </picture>
+              <figcaption className={style.captionImgArticle}>
+                {props.by}
+              </figcaption>
+            </figure>
+          </div>
         )}
-        <hr className={style.divisor}></hr>
       </article>
+      <hr className={style.divisor}></hr>
     </a>
   );
 }
