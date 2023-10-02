@@ -180,6 +180,6 @@ Distributed under the MIT License.
 - LinkedIn: [Walter Hoxha](https://www.linkedin.com/in/walter-hoxha-62112126b/)
 - GitHub: [djswalterix](https://github.com/djswalterix)
 
-Project Link: [https://github.com/djswalterix/javascriptAdvanced](https://github.com/djswalterix/javascriptAdvanced)
+Project Link: [https://github.com/djswalterix/new-york-times-clone](https://github.com/djswalterix/new-york-times-clone)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
