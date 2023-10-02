@@ -1,5 +1,5 @@
 import React from "react";
-import style from "../css/Header.module.scss"; // Importa il file SCSS
+import style from "../../css/Header.module.scss"; // Importa il file SCSS
 import HamburgerMenu from "./Hamburgher";
 
 import Logo from "./Logo";

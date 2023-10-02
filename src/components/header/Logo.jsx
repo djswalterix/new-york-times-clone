@@ -1,6 +1,6 @@
 import React from "react";
-import style from "../css/Logo.module.scss"; // Importa il file SCSS
-import logoImg from "../images/The_New_York_Times_logo.png";
+import style from "../../css/Logo.module.scss"; // Importa il file SCSS
+import logoImg from "../../images/The_New_York_Times_logo.png";
 import { Link, useNavigate } from "react-router-dom";
 import { connect } from "react-redux";
 function Logo({ setQuery }) {

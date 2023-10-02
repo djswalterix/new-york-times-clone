@@ -1,5 +1,5 @@
 import React from "react";
-import style from "../css/Date.module.scss"; // Importa il file SCSS
+import style from "../../css/Date.module.scss"; // Importa il file SCSS
 function DateSection() {
   //creo data
   const today = new Date();

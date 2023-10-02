@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import styles from "../css/Header.module.scss"; // Importa il file SCSS
-import Header from "./Header";
+import Header from "./header/Header";
 import exportArticles from "../data/NYTGet";
 import Article from "./Article";
 

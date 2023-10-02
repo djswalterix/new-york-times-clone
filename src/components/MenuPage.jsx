@@ -1,10 +1,10 @@
 import React from "react";
 import style from "../css/Header.module.scss"; // Importa il file SCSS
-import DeleteButton from "./DeleteButton";
+import DeleteButton from "./header/DeleteButton";
 import Menu from "./Menu";
-import Logo from "./Logo";
+import Logo from "./header/Logo";
 
-import DateSection from "./Date";
+import DateSection from "./header/Date";
 
 function MenuPage() {
   return (
